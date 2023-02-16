@@ -58,8 +58,8 @@ function checkBalloonPop(){
     document.getElementById("pop-sound").play()
 
     currentPopCount++
-    height = 40
-    width = 0
+    height = 20
+    width = 10
   }
 }
 

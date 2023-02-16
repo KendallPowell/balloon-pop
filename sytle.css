@@ -12,7 +12,9 @@
 }
 
 body{
-  background-color: var(--bg);
+  /* background-color: var(--bg); */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,28,126,1) 10%, rgba(0,212,255,1) 100%);
   font-family: 'Permanent Marker', cursive; 
   font-size: 16pt;
   color: var(--text-color)
@@ -54,6 +56,11 @@ button{
   padding: 1em;
 }
 
+.scott{
+  border: 2px dashed purple;
+  background-color: green;
+}
+
 button:hover{
   background-color: var(--primary-darken);
 }
@@ -61,6 +68,7 @@ button:hover{
 .game-container{
   height: 300px;
 }
+
 
 .pump{
   margin-top: 80px;
